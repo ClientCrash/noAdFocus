@@ -5,7 +5,9 @@
     "version": "1.0",
   
     "description": "Skip the 5 seconds like a time saving super hero.",
-  
+    "icons": {
+      "1024":"icon.png"
+    },
     "content_scripts": [
       {
         "matches": ["*://adfoc.us/serve*"],
